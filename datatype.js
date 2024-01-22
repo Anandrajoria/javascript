@@ -1,4 +1,6 @@
-let value=3;
+//*************operation**********
+
+// let value=3;
 // let nagvalue=-value;
 // //console.log(nagvalue)
 // let str1='hitesh'
@@ -7,3 +9,7 @@ let value=3;
 // console.log('1'+2);
 // console.log( 1+'2'+2);
 // console.log('1'+2)
+
+console.log(+true)
+console.log(+'')
+
