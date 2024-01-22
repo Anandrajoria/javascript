@@ -1,9 +1,8 @@
-let value=3;
-// let nagvalue=-value;
-// //console.log(nagvalue)
-// let str1='hitesh'
-// let str2=' sir'
-// //console.log(str1+str2)
-// console.log('1'+2);
-// console.log( 1+'2'+2);
-// console.log('1'+2)
+function countDown(fromNumber){
+//     console.log(fromNumber);
+//     let nextNUmber=fromNumber-1;
+//     if (nextNUmber>0) {
+//         countDown(nextNUmber);
+//     }
+// }
+// countDown(3)

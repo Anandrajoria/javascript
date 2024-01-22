@@ -1,0 +1,32 @@
+function square(x){
+    x=x*x;
+    return x;
+}
+let y=10;
+let reult=square(y);
+console.log(reult);//100
+console.log(y);//no change because of pass by value 
+
+
+//pass by reference
+
+let detail={
+    name:'aditya rajoriya',
+    course:'B-tech',
+    age:18,
+    address:{
+        country:'India',
+        state:'Rajasthan',
+        street:'A-23,benad road, Jaipur'
+    }
+};
+
+
+function changed_detail(obj){
+    obj.name='anand ranjoriya';
+    obj.address.country='Bharat';
+    obj.age+=1;
+}
+
+changed_detail(detail);
+console.log(detail)
