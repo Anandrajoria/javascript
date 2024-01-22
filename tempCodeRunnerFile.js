@@ -1,1 +1,1 @@
-console.log(multipleElement(array,indeces));
+how you use map in arrray of object
